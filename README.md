@@ -19,3 +19,12 @@ This process will create:
   prefabs in the game
   - A default Assembly definition to correctly make use of the stationeers dlls.
 
+Testing is suggested for now.
+
+## Notes
+
+The project includes the following packages:
+  - stationeers.modding.assemblies
+  - stationeers.modding.exporter
+
+The project still does not include the modding tools package.
