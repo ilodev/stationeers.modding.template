@@ -19,6 +19,10 @@ This process will create:
   prefabs in the game
   - A default Assembly definition to correctly make use of the stationeers dlls.
 
+You can close the dialog and do not perform the setup initially, you can relaunch
+the setup dialog through: **Tools > Project Setup Wizard**
+
+
 Testing is suggested for now.
 
 ## Notes
