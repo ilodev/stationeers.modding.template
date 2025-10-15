@@ -32,3 +32,9 @@ The project includes the following packages:
   - stationeers.modding.exporter
 
 The project still does not include the modding tools package.
+
+The project uses the following Player Settings:
+ - Company Name
+ - Product Name
+ - Bundle version
+
