@@ -73,31 +73,6 @@ public class ProjectSetupWizard : EditorWindow
         window.Show();
     }
 
-
-    [MenuItem("Tools/Project Setup Wizard (Modal)")]
-    public static void ShowWindowModal()
-    {
-        var win = CreateInstance<ProjectSetupWizard>();
-        win.titleContent = new GUIContent("Project Setup Wizard");
-        var size = new Vector2(400, 320);
-        win.minSize = size;
-        CenterOnMainWin(win, size); // set position BEFORE showing
-        win.ShowModalUtility();     // <-- modal: blocks other editor windows until closed
-    }
-
-
-    [MenuItem("Tools/Project Setup Wizard Test (Modal)")]
-    public static void ShowWindowModalTest()
-    {
-        if (EditorUtility.DisplayDialog("Project Setup", "We need to complete setup now.", "OK", "Cancel"))
-        {
-            var win = ScriptableObject.CreateInstance<ProjectSetupWizard>();
-            CenterOnMainWin(win, new Vector2(400, 320)); // your helper
-            win.ShowModalUtility();
-        }
-    }
-
-
     private void OnEnable()
     {
         string projectPath = Application.dataPath;
