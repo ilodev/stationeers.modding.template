@@ -165,8 +165,8 @@ public class ProjectSetupWizard : EditorWindow
         string editorPath = Path.Combine(Application.dataPath, "Editor");
         if (Directory.Exists(editorPath))
         {
-            // Directory.Delete(editorPath, true);
-            // File.Delete(editorPath + ".meta");
+            Directory.Delete(editorPath, true);
+            File.Delete(editorPath + ".meta");
         }
 
         AssetDatabase.Refresh();
@@ -253,9 +253,6 @@ public class ProjectSetupWizard : EditorWindow
             "  </Tags>\n" +
             "</ModMetadata>\n";
     }
-
-
-
 
     public static void CreateDefaultScript(string namespaceName = null)
     {
