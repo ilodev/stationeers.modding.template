@@ -3,7 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - UIHelper
+  - Slot
+  - NoNotDelete
+  - NotSpawnable
+  - CollidersAlwaysVisible
+  - Cursor
+  - NotPaintable
+  - Asteroid
+  - GraphicRaycastCamera
+  - BlueprintHelper
+  - Vehicle
+  - Sun
+  - EffectLight
+  - AnimatedCollider
+  - DontHideOnClick
+  - NonLocalized
   layers:
   - Default
   - TransparentFX
@@ -13,31 +29,34 @@ TagManager:
   - UI
   - 
   - 
+  - PlayerInvisible
+  - Player
+  - PlayerImmune
+  - PlayerRagdoll
+  - WorldspaceUI
+  - HUD
+  - MiniMap
+  - LabelText
+  - Terrain
+  - CursorVoxel
+  - CharacterCreation
+  - Planets
+  - IgnoreWheelColliders
+  - PostProcess
+  - Stars
+  - BlockSound
+  - Plants
+  - Cables
+  - FirstPerson
+  - LiquidSolverParticles
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - ThumbnailCreation
+  - TerrainMeshStamp
+  - TransformGizmo
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Worldspace UI
+    uniqueID: 2817303469
     locked: 0
