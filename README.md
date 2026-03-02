@@ -22,8 +22,11 @@ This process will create:
 You can close the dialog and do not perform the setup initially, you can relaunch
 the setup dialog through: **Tools > Project Setup Wizard**
 
+The project is a stripped-down Unity setup that does not include any development
+package. Install Rider or Visual Studio packages depending on your preferences.
 
 Testing is suggested for now.
+
 
 ## Notes
 
