@@ -3,6 +3,8 @@
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.7.5",
     "com.unity.ugui": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.assetbundle": "1.0.0",
     "stationeers.modding.assemblies": "https://github.com/ilodev/stationeers.modding.assemblies.git",
     "stationeers.modding.exporter": "https://github.com/ilodev/stationeers.modding.exporter.git"
   }
