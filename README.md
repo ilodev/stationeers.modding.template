@@ -43,3 +43,6 @@ The project uses the following Player Settings:
  - Product Name
  - Bundle version
 
+## Credits
+
+- Stationeers Modding Team - [Join our discord](https://discord.gg/5qZbPVTw2U)
