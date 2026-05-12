@@ -34,6 +34,8 @@ The project includes the following packages:
   - stationeers.modding.assemblies
   - stationeers.modding.exporter
 
+The project enables Vulkan shader support by default.
+
 The project still does not include the modding tools package.
 
 The project uses the following Player Settings:
