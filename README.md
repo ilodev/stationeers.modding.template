@@ -31,8 +31,8 @@ Testing is suggested for now.
 ## Notes
 
 The project includes the following packages:
-  - stationeers.modding.assemblies
-  - stationeers.modding.exporter
+  - [stationeers.modding.exporter](https://github.com/ilodev/stationeers.modding.assemblies)
+  - [stationeers.modding.exporter](https://github.com/ilodev/stationeers.modding.exporter)
 
 The project enables Vulkan shader support by default.
 
